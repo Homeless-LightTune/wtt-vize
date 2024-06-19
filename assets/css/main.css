@@ -1,0 +1,688 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+    html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #ffffff;
+    margin: 0px;
+}
+/* ######################   MENU    #################### */
+.sg-blsk{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.sl-bslk{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#block150px{
+    color: white;
+    border: 1px solid white;
+    width: 1024px;
+    margin-bottom: 150px;
+    opacity: 0%;
+}
+#block100px{
+    color: white;
+    border: 1px solid white;
+    width: 1024px;
+    margin-bottom: 100px;
+    opacity: 0%;
+}
+#block80px{
+    color: white;
+    border: 1px solid white;
+    width: 1024px;
+    margin-bottom: 80px;
+    opacity: 0%;
+}
+.logo{
+    width: 120px;
+    height: 50px;
+    align-items: right;
+    float: left;
+    margin-top: 13px;
+}
+.menu{
+    width: 1024px;
+    height: 80px;
+    margin: auto;
+    text-align: right;
+    font-size: 15px;
+    margin-bottom: 0px;
+    display: block;
+}
+.menuArkaPlan{
+    margin: auto;
+}
+#menu1{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 15px;
+    margin-top: 21px;
+    color: black;
+    transition: 0.8s;
+}
+#menu1:hover{
+    color:#17bb08;
+    transition: 0.5s;
+}
+.simdioyna{
+    display: inline-block;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-top: 21px;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid #17bb08;
+    background-color: #17bb08;
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.8s;
+}
+.simdioyna:hover{
+    color:rgb(201, 201, 201);
+    transition: 0.5s;
+}
+#menu1 href{
+    transition: 2s;
+}
+/* #####################   MANŞET    ################### */
+.mansetArkaPlan{
+    background-image: url(../img/background.jpg);
+    height: 840px;
+    width: 100%;
+    background-size: cover;
+    filter: 0;
+    margin: auto;
+    display: inline-block;
+}
+.manset{
+    width: 1024px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+.manset h1{
+    margin-top: 20px;
+    margin-bottom: -5px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.manset p{
+    font-size: 25px;
+}
+#sp-clr1{
+    color: #ef4c38;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#sp-clr2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#buton-cs1{
+    color: white;
+    border-right: 40px;
+}
+#beyazYazi{
+    color: white;
+    transition: 0.8s;
+}
+#siyahYazi{
+    color: black;
+}
+.simdiOyna{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid #17bb08;
+    background-color: #17bb08;
+    font-size: 15px;
+    padding: 5px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.8s;
+}
+.simdiOyna:hover{
+    transition: 0.3s;
+    font-size: 17px;
+}
+.mansetklip{
+    margin-top: 20px;
+}
+.mansetklip a{
+    text-decoration: none;
+    color: white;
+    opacity: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.manset img{
+    margin-top: 270px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transition: 0.6s;
+}
+.manset a :hover{
+    width: 110px;
+    height: 110px;
+    transition: 0.6s;
+}
+.mansetklip i{
+    width: 18px;
+    height: 18px;
+    /* border: 1px solid white;
+    border-radius: 25%; */
+    opacity: 70%;
+}
+.mansetklip a:hover{
+    width: 19px;
+    height: 19px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.manset p a{
+    text-decoration: none;
+}
+.fa-solid{
+    font-size: 17px;
+}
+/* #####################  HAKKIMIZDA  ################## */
+.hakkimizdaArkaPlan{
+    background-color: white;
+    width: 1024px;
+    height: 800px;
+    margin: auto;
+}
+.hakkimizda{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hakkimizda hr{
+    width: 90px;
+    color: #17bb08;
+    border: 1px solid #17bb08;
+}
+.hakkimizda p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.hakkimizda a img{
+    width: 140px;
+    height: 70px;
+    margin-top: -2%;
+    color: #17bb08;
+}
+
+.hakkimizda div{
+    float: left;
+    width: 340px;
+    height: 240px;
+    display: inline-block;
+    text-align: center;
+}
+.hakkimizda div img{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 5px;
+    object-fit: cover;
+    transition: 0.8s;
+}
+.hakkimizda div img:hover{
+    width: 150px;
+    height: 75px;
+    transition: 0.8s;
+}
+#hk-pr4, #hk-pr5{
+    width: 340px;
+    height: 240px;
+    display: block;
+    margin-left: 120px;
+    margin-right: auto;
+    margin-top: -100px;
+}
+.hakkimizda div h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hakkimizda div p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(90, 90, 90);
+}
+#sayfaCizgisi{
+    width: 1900px;
+    color: gray;
+    margin-top: 120px;
+}
+.gamespot img{
+    width: 140px;
+    height: 70px;
+    transition: 0.3s;
+}
+.gamespot img:hover{
+    width: 150px;
+    height: 70px;
+    transition: 0.3s;
+}
+
+/* ###################  NASIL OYNANIR  ################# */
+
+.nasilOynanirVideoArkaPlan video{
+    width: 100%;
+    min-width: 25%;
+    /* min-height: 10%; */
+    height: 910px;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+}   /* BURADA BİR HATA VAR SİLERSEM BOZULUYOR, DURURSA KOD ÇALIŞIYOR ŞAKA GİBİ */
+.nasilOynanir{
+    /*   */
+    color: white;
+    width: 1024px;
+    height: auto;
+}
+.nasilOynanirVideoArkaPlan .nasilOynanir{
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.nasilOynanir-yazi{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+}
+.nasilOynanir-yazi h1{
+    padding-top:120px; 
+    text-align: left;
+}
+.nasilOynanir-yazi p{
+    text-align: left;
+}
+.nasilOynanir-foto{
+    width: 50%;
+    padding: 120px 0px 0px 120px;
+    opacity: 80%;
+}
+.nasilOynanir div{
+    color: #f1f1f1;
+    width: 500px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.nasilOynanir-yazi-maddeler{
+    text-align: left;
+    padding-top:60px;
+    margin: auto;
+}
+.nasilOynanir-yazi-maddeler i{
+    color: #17bb08;
+    font-size: 30px;
+    padding-bottom: 60px;
+    float: left;
+}
+.nasilOynanir-yazi-maddeler h4{
+    text-align: top;
+    margin: auto;
+    margin-left: 50px;
+}
+.nasilOynanir-yazi-maddeler p{
+    margin-left: 50px;
+    opacity: 85%;
+}
+
+/* ###################   OPERATÖRLER   ################# */
+.operatorlerArkaPlan{
+    height: 500px;
+    background-color: #f1f1f1;
+}
+.operatorler{
+    width: 1024px;
+    min-width: none;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+.operatorler hr{
+    width: 90px;
+    color: #17bb08;
+    border: 1px solid #17bb08;
+}
+.operatorler p{
+    opacity: 85%;
+    margin-bottom: 80px;
+}
+.operatorler div{
+    display: inline-block;
+    text-align: right;
+}
+.operatorler i{
+    float: right;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 22px;
+    /* position: absolute; */
+    opacity: 85%;
+
+}
+.operatorler a{
+    text-decoration: none;
+    color: black;
+    width: 450px;
+}
+.operatorler h4{
+    float: left;
+    padding-left: 15px;
+}
+.kutucuk{
+    border: 1px solid white;
+    background-color: white;
+    /* border-radius: 50%; */
+}
+.kutucuk:hover{
+    border: 1px solid #c7c7c7;
+    background-color: #f7f7f7;
+}
+.saldiranlar{
+    width: 400px;
+    margin: auto;
+}
+.savunanlar{
+    width: 400px;
+    margin: auto;
+}
+/* ###################  İSTATİSTİKLER  ################# */
+.istatistikler{
+    width: 1024px;
+    min-width: none;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+.istatistikler hr{
+    width: 90px;
+    color: #17bb08;
+    border: 1px solid #17bb08;
+}
+.istatistikler p{
+    margin-bottom: 80px;
+    opacity: 85%;
+}
+.istatistikler div{
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 200px;
+    float: left
+}
+.istatistikler div i{
+    opacity: 20%;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.istatistikler h2{
+    color: #17bb08;
+}
+.istatistikler div p{
+    opacity: 60%;
+}
+/* ###################   UYGULAMALAR  ################## */
+.uygulamalarArkaPlan{
+    height: 500px;
+    background-color: #f1f1f1;
+}
+.uygulamalar{
+    width: 1024px;
+    min-width: none;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+.uygulamalar hr{
+    width: 90px;
+    color: #17bb08;
+    border: 1px solid #17bb08;
+}
+.uygulamalar p{
+    margin-bottom: 80px;
+    opacity: 85%;
+}
+.uygulamalar-fotolar{
+    margin: auto;
+}
+.uygulamalar-fotolar img{
+    width: 270px;
+    height: 200px;
+    margin: auto;
+    object-fit: cover;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: -50px;
+    text-align: center;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+.uygulamalar-fotolar .uFoto:hover{
+    width: 290px;
+    height: 220px;
+    transition: 0.8s;
+}
+.uygulamalar-fotolar:hover > .uFoto:not(:hover){
+    filter: blur(10px);
+    transition: 0.8s;
+}
+/* #################   ARAMIZA KATIL   ################# */
+.aramizaKatilArkaPlan{
+    height: 500px;
+    background-color: #17bb08;
+}
+.aramizaKatil{
+    width: 1024px;
+    min-width: none;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    color: white;
+}
+.aramizaKatil h1{
+    margin-top: 100px;
+}
+.aramizaKatil hr{
+    width: 90px;
+    color: white;
+    border: 1px solid white;
+}
+.aramizaKatil p{
+    margin-bottom: 80px;
+    opacity: 85%;
+}
+.aramizaKatil form input{
+    margin-bottom: 10px;
+    border: 1px solid #ffffff77;
+    border-bottom: 1px solid #ffffff77;
+    color: white;
+    height: 50px;
+    width: 340px;
+    background-color: #17bb08;
+    border-radius: 5px;
+    margin-right: 15px; 
+}
+.aramizaKatil form input[type=submit]{
+    background-color: rgb(248, 83, 83);
+    color: white;
+    height: 55px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;    
+    transition: 0.8s;
+}
+.aramizaKatil form input:hover{
+    background-color: #17bb08;
+    transition: 0.8s;
+}
+/* ####################   İLETİŞİM    ################## */
+.iletisimArkaPlan{
+    background-image: url(../img/background2.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    filter: 0;
+    margin: auto;
+    display: inline-block;
+}
+.iletisim{
+    width: 1024px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+.iletisim h2{
+    color: white;
+    margin-top: 240px;
+    margin-bottom: -5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.iletisim h2 span{
+    color: #17bb08;
+}
+/* ####################    FOOTER     ################## */
+.footerArkaPlan{
+    height: 450px;
+    background-color: white;
+}
+.footer{
+    width: 1024px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+.footer div{
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+}
+.footer-hakkimizda{
+    color: black;
+    text-align: left;
+    width: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 200px;
+}
+.footer-hakkimizda p{
+    opacity: 85%;
+    font-size: 20px;
+    width: 370px;
+}
+.footer-linkler{
+    width: 250px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+}
+.footer-linkler a{
+    text-decoration: none;
+    text-align: left;
+    font-size: 18px;
+    color: #17bb08;   
+    opacity: 85%;
+    transition: 0.8s;
+}
+.footer-linkler a:hover{
+    color: black;
+    transition: 0.8s;
+}
+.footer-iletisim{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #17bb08;
+    width: 250px;
+    vertical-align: top;
+    text-align: left;
+}
+.footer-iletisim h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-iletisim i{
+    margin-right: 10px;
+    color: #17bb08;
+    transition: 0.8s;
+}
+.footer-iletisim i:hover{
+    color: black;
+    transition: 0.8s;
+}
+.footer-iletisim a{
+    text-decoration: none;
+    color: #17bb08;
+}
+.footer-iletisim span{
+    transition: 0.8s;
+}
+.footer-iletisim span:hover{
+    color: black;
+    transition: 0.8s;
+}
+#baslikfooter{
+    color:black;
+}
+/* ################  COPYRIGHT & SOCIAL  ############### */
+.copyright-socialArkaPlan{
+    height: 150px;
+    background-color: white;
+}
+.copyright-social{
+    width: 1024px;
+    margin: auto;
+    text-align: center;
+}
+.copyright{
+    float: left;
+    text-align: left;
+}
+.copyright p{
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 85%;
+}
+.copyright span{
+    color: #17bb08;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.8s;
+}
+.copyright span:hover{
+    transition: 0.8s;
+    color: black;
+}
+.copyright p a{
+    text-decoration: none;
+}
+.social{
+    float: right;
+}
+.social a i{
+    font-size: 26px;
+    padding-left: 15px;
+}
+.social a{
+    text-decoration: none;
+    color: #17bb08;
+    transition: 0.8s;
+}
+.social a:hover{
+    transition: 0.8s;
+    color: black;
+}
